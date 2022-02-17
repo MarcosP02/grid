@@ -1,0 +1,220 @@
+.bodyProductos{
+    width: 100%;
+}
+
+.navProductos{
+    background-color: rgb(233, 58, 64);
+    width: 100%;
+}
+
+
+.navProductos ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.navProductos ul :hover{
+    transform: scale(1.2);
+
+}
+
+.navProductos li{   
+
+   
+    border-bottom: 5px solid rgb(204, 21, 67);
+    padding: 5px;
+    border-radius: 50px; 
+    }
+   
+    
+.navProductos a{
+    text-decoration: none;
+    color: rgba(85, 2, 9, 0.932);
+   
+    
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ /*header Productos*/
+
+ .headerProductos{
+    background-color: rgb(233, 58, 64);
+    padding: 20px;
+    text-align: center;
+    
+}
+.h1Productos{
+    
+    color: rgb(138, 13, 44);
+    font-size: 60px;
+   
+}
+/*logo Nuestro*/
+.logoProductos{
+    width: 10%;
+  
+}
+/* productos*/
+
+.h2Productos{
+background-color: rgb(3, 0, 0);
+color: red;
+padding: 40px;
+font-size: 50px;
+text-align: center;
+}
+/*logo 2 Productos*/
+
+.logo1Productos{
+    width: 30%;
+  
+  
+    
+}
+/*imagenes productos*/
+
+.seccionProductos{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5px;
+}
+
+
+.img1{
+    width: 100%;
+ 
+border: 1px solid black;
+}
+.img1 :hover{
+    transform: scale(1.5);
+    }
+
+.img2{
+    border: 1px solid black;
+    width: 100%;
+   
+ }
+ .img2 :hover{
+animation-name: img2;    
+animation-iteration-count: infinite ;
+animation-duration: 2s;
+animation-timing-function: linear;
+
+}
+@keyframes img2{
+    from {
+        transform: rotateY(0);
+
+    }
+    to{
+transform: rotateY(360deg);
+    }
+
+}
+ .img3{
+    border: 1px solid black;
+    width: 100%;
+    
+ }
+ .img3 :hover{
+    animation-name: img3;    
+    animation-iteration-count: infinite ;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    
+    }
+    @keyframes img3{
+        from {
+            transform: scale(0.6);
+    
+        }
+        to{
+    transform: scale(1);
+        }
+    
+    }
+ .img4{
+    border: 1px solid black;
+    width: 100%;
+   
+ }
+ .img4 :hover{
+    animation-name: img4;    
+    animation-iteration-count: infinite ;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    
+    }
+    @keyframes img4{
+       10% {
+            transform: scale(0.5);
+        }
+       50%{
+           transform: scale(1.2);
+       }
+       10%{
+           transform: scale(0.9);
+       }
+      
+    }
+ 
+ .img5{
+    width: 100%;
+    border: 1px solid black;
+ }
+ .img5 :hover{
+    transform: scale(1.5);
+    }
+ .img6{
+   
+    width: 100%;
+    border: 1px solid black;
+ }
+ .img6 :hover{
+    transform: scale(1.5);
+    }
+ .img7{
+   
+    width: 100%;
+    border: 1px solid black;
+ }
+ .img7 :hover{
+    transform: scale(1.5);
+    }
+ .img8{
+   
+    width: 100%;
+    border: 1px solid black;
+ }
+ .img8 :hover{
+    transform: scale(1.5);
+    }
+ .img9{
+    border: 1px solid black;
+    width: 100%;
+    
+ }
+ .img9 :hover{
+    transform: scale(1.5);
+    }
+
+
+ /*foooter Productos*/
+
+ 
+ .footerProductos{
+     padding:20px;
+     text-align: center;
+     background-color: black;
+     color: red;
+ }
+   
+ /*logo footer Productos*/
+
+
+.logoifProductos{
+    text-align: center;
+    background-color:  black;;
+    
+    }
